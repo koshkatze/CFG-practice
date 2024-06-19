@@ -24,13 +24,19 @@ function root(x) {
 
 describe("sum function", () => {
     it("multiplies two numbers", () => {
-        expect(multiplication(2, 2)).toBe(4);
+        const expected = 4;
+        const actual = multiplication(2,2);
+        expect(actual).toBe(expected);
     })
     it("adds two numbers", () => {
-        expect(addition(5,5)).toBe(10);
+        const expected = 10;
+        const actual = addition(5,5);
+        expect(actual).toBe(expected);
     })
     it("divides two numbers", () => {
-        expect(division(9, 3)).toBe(3);
+        const expected = 3;
+        const actual = division(9,3);
+        expect(actual).toBe(expected);
     })
     it("minuses from a number", () => {
         expect(minus(5, 2)).toBe(3);
